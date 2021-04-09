@@ -18,6 +18,24 @@ html, body{
     overflow-x: hidden;
 }
 
+@font-face {
+    font-family: GothamFont;
+    src: url('../public/GothamBold.ttf');
+}
+
+.iframe-container{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.text-container{
+    font-family: GothamFont;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px){
     .video-container {
         overflow: hidden;
@@ -37,5 +55,14 @@ html, body{
         left: 0;
         width: 100%;
         height: 100%;
+    }
+
+    .iframe-container{
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+    }
+
+    .text-container p{
+        line-height: 1.3;
     }
 }
